@@ -1,5 +1,7 @@
+##PLEASE CREATE A DATABASE FILE IN THE SAME FOLDER OF THIS SCRIPT, and name it "addresses.db"
 ##With this program you will be able to create 100 unique deposit addresses for your website USERS, and store them into a database
 ##It will generate 100 addresses, once you will have used all of them it will create 100 more.
+##Please read the README FILE.
 
 from subprocess import call
 from subprocess import check_output
@@ -10,10 +12,10 @@ import csv
 def create_addresses():
 	y=1
 	while y<=100: #change the number if you want to generate more or less addresses
-		out = check_output(['./clamd','getnewaddress',''])#./bitcoin-cli for Bitcoin core
+		out = check_output(['./clamd','getnewaddress',''])#./bitcoin-cli for Bitcoin
 		print (out)
 		y+=1
-	outt = check_output(['./clamd','getaddressesbyaccount',''])#./bitcoin-cli for Bitcoin core
+	outt = check_output(['./clamd','getaddressesbyaccount',''])#./bitcoin-cli for Bitcoin
 	addr=re.findall('"(.+?)"',str(outt))
 	L=[]
 	with open('addresses.db') as csvfile:
@@ -47,7 +49,7 @@ def create_addresses():
 			x+=1
 	return len(new)
 def check_addresses():
-	out = check_output(['./clamd','getaddressesbyaccount',''])#./bitcoin-cli for Bitcoin core
+	out = check_output(['./clamd','getaddressesbyaccount',''])#./bitcoin-cli for Bitcoin
 	addr=re.findall('"(.+?)"',str(out))
 	return len(addr)
 
