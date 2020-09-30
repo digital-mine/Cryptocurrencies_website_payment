@@ -1,4 +1,4 @@
-# Cryptocurrencies website payment
+# Completely working cryptocurrencies website payment without any bug in it
 
 This is a Python script to accept cryptocurrencies payment for website owner.
 
