@@ -1,4 +1,4 @@
-# Cryptocurrencies website payment
+# Cryptocurrencies website payment - A good website and allows the website owner to creates wallets
 
 This is a Python script to accept cryptocurrencies payment for website owner.
 
