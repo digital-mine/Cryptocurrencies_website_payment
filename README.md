@@ -10,4 +10,5 @@ I'm going to add new codes to this repository, to manage transactions to hot wal
 
 You need a local wallet installed an sync on your computer or on the server.
 It uses subprocess library to call, and execture che -cli WALLET CONSOLE commands.
+You will recieva payment receipt 
 
