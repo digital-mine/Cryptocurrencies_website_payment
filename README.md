@@ -1,4 +1,4 @@
-# Cryptocurrencies website payment
+# Cryptocurrencies - The new way to digital payment
 
 This is a Python script to accept cryptocurrencies payment for website owner.
 
