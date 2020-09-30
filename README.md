@@ -1,6 +1,6 @@
 # Cryptocurrencies website payment
 
-This is a Python script to accept cryptocurrencies payment for website owner.
+This is a Python Program accept cryptocurrencies payment for website owner.
 
 The program is very simple, It basically allow the website owner to creates DEPOSIT wallets for USERS or CLIENTS, and save them into a DATABASE.
 
@@ -11,3 +11,4 @@ I'm going to add new codes to this repository, to manage transactions to hot wal
 You need a local wallet installed an sync on your computer or on the server.
 It uses subprocess library to call, and execture che -cli WALLET CONSOLE commands.
 
+Thank you!!!
