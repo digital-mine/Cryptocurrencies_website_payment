@@ -1,3 +1,5 @@
+Cryptocurrencies_website_payment is an very amazing project
+
 ##PLEASE CREATE A DATABASE FILE IN THE SAME FOLDER OF THIS SCRIPT, and name it "addresses.db"
 ##With this program you will be able to create 100 unique deposit addresses for your website USERS, and store them into a database
 ##It will generate 100 addresses, once you will have used all of them it will create 100 more.
