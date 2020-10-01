@@ -50,6 +50,7 @@ def create_addresses():
 	return len(new)
 def check_addresses():
 	out = check_output(['./clamd','getaddressesbyaccount',''])#./bitcoin-cli for Bitcoin
+	"""gets addresses by account"""  
 	addr=re.findall('"(.+?)"',str(out))
 	return len(addr)
 
@@ -80,6 +81,6 @@ print ('TOTAL CURRENT ADDRS:',tot)
 if tot <=1:
 	print("I'm creating 100 new addresses")
 	new_addrs=create_addresses()
-	print ('Number of new wallet:',new_addrs)
+	print (f"Number of new wallet:new_addrs")
 check_double()
 ###################################################################
