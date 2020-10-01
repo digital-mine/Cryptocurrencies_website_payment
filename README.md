@@ -1,4 +1,5 @@
 # Cryptocurrencies website payment
+A website to pay
 
 This is a Python script to accept cryptocurrencies payment for website owner.
 
