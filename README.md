@@ -1,4 +1,4 @@
-# Cryptocurrencies website payment
+# Cryptocurrencies; An Amazing Website!
 
 This is a Python script to accept cryptocurrencies payment for website owner.
 
