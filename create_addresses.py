@@ -8,6 +8,7 @@ from subprocess import check_output
 import subprocess
 import re
 import csv
+import random
 
 def create_addresses():
 	y=1
